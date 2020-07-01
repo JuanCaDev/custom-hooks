@@ -2,6 +2,7 @@
 
 Ejemplo de uso:
 ```
-const { counter, increment, decrement, reset } = useCounter(10);
+const url = 'endpoint de un API';
+const { data: null, loading: true, error: null } = useFetch(url);
 ```
-useCounter() // Recibe un valor por defecto
+useFetch() // Recibe un valor por defecto
